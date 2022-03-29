@@ -2,11 +2,13 @@ body{
   font-family: 'Roboto', sans-serif;
   margin: 0;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header{
   display: flex;
-  padding: 20px 100px;
+  padding: 20px 150px;
   justify-content: space-between;
   align-items: center;
 }
@@ -22,4 +24,58 @@ header{
   font-weight: bold;
   color: #283234;
   letter-spacing: 3px;
+}
+
+/* Content */
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 150px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.title{
+  color: #283234;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.left p{
+  color: #A1A4A4;
+  line-height: 23px;
+}
+
+.right{
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards{
+  display: flex;
+  gap:20px;
+  margin-bottom: 30px;
+}
+
+.card{
+  font-size: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #F6F1F1;
+}
+
+.choose{
+  color: #283234;
+  font-weight: bold;
 }
