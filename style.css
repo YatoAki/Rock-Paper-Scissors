@@ -44,9 +44,8 @@ header{
 .left{
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 400px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .title{
@@ -83,7 +82,7 @@ header{
   cursor: pointer;
 }
 
-.card:hover{
+.card.choice:hover{
   transform: scale(1.1);
 
 }
@@ -95,6 +94,22 @@ header{
 
 .filler{
   flex-grow: 1;
+}
+
+.resultFlex{
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+
+.scoreTotal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reduceSize{
+  font-size: 30px;
 }
 
 footer{
