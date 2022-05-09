@@ -1,7 +1,17 @@
 # Rock-Paper-Scissors
 
-<h3>My very first JavaScript Project</h3>
+* Classic Rock-Paper-Scissors Game created with Html, Css & JavaScript.
+* This is my very first project in JavaScript.
 
-You can play Rock-Paper-Scissors against computer in the browser.
+## How to run the game
 
-<b>Check the live version <a href="https://yatoaki.github.io/Rock-Paper-Scissors/">Here</a></b>
+### Through the GitHub page
+
+Check the live version <a href="https://yatoaki.github.io/Rock-Paper-Scissors/">Here</a>
+
+### On your local machine
+
+1. First, clone this repo to your local mechine with __git__ command.
+* `git clone https://github.com/YatoAki/Rock-Paper-Scissors`
+2. Go to the cloned source code dictionary.
+3. Open the `index.html` file in your broswer.
