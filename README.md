@@ -3,6 +3,11 @@
 * Classic Rock-Paper-Scissors Game created with Html, Css & JavaScript.
 * This is my very first project in JavaScript.
 
+## Features
+
+* Play with AI
+* Count scores
+
 ## How to run the game
 
 ### Through the GitHub page
